@@ -1,5 +1,7 @@
 # calculator.github.io
 https://tharkicoder.github.io/calculator.github.io/<br>
 Image of Project <br>
-![image](https://user-images.githubusercontent.com/84368029/119704270-118f7f00-be75-11eb-8b9d-c9fb3888efd8.png)
+![image](https://user-images.githubusercontent.com/84368029/119793051-e009c880-bef3-11eb-9b1b-f094b5141542.png)
+
+
 
