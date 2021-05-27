@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="body">
+        <span>Aman Singh</span>
+        <form class="form" name="fm">
+          <input type="text" name="display" class="display">
+          <div class="mainbody">
+            <input type="button" name="1" value="1" onclick="fm.display.value+='1'">
+            <input type="button" name="2" value="2" onclick="fm.display.value+='2'">
+            <input type="button" name="3" value="3" onclick="fm.display.value+='3'">
+            <input type="button" name="+" value="+" onclick="fm.display.value+='+'"><br>
+            <input type="button" name="4" value="4" onclick="fm.display.value+='4'">
+            <input type="button" name="5" value="5" onclick="fm.display.value+='5'">
+            <input type="button" name="6" value="6" onclick="fm.display.value+='6'">
+            <input type="button" name="-" value="-" onclick="fm.display.value+='-'"><br>
+            <input type="button" name="7" value="7" onclick="fm.display.value+='7'">
+            <input type="button" name="8" value="8" onclick="fm.display.value+='8'">
+            <input type="button" name="9" value="9" onclick="fm.display.value+='9'">
+            <input type="button" name="*" value="*" onclick="fm.display.value+='*'"><br>
+            <input type="button" name="0" value="0" onclick="fm.display.value+='0'">
+            <input type="button" name="." value="." onclick="fm.display.value+='.'">
+            <input type="button" name="<" value="<" onclick="fm.display.value=fm.display.value.slice(0,fm.display.value.length-1)">
+            <input type="button" name="/" value="/" onclick="fm.display.value+='/'"><br>
+            <input type="button" name="C" value="C" onclick="fm.display.value=' '">
+            <input type="button" name="(" value="(" onclick="fm.display.value+='('">
+            <input type="button" name=")" value=")" onclick="fm.display.value+=')'">
+            <input type="button" name="1" value="=" onclick="fm.display.value=eval(fm.display.value)">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
