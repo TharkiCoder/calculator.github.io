@@ -7,7 +7,7 @@ body{
 }
 
 span{
-  font-size: 10px;
+  font-size: 11px;
   color: gray;
   font-weight: bold;
 }
@@ -21,7 +21,7 @@ span{
   background-color: #fff;
   border: 3px solid #fff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 10px rgba(74,74,74, 0.6);
+  box-shadow: 0px 0px 10px 10px rgba(74,74,74, 0.7);
   padding: 15px;
 }
 .display{
