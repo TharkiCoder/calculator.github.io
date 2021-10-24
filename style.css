@@ -26,19 +26,19 @@ span{
   padding: 15px;
 }
 .display{
-  height: 51px;
-  width: 141px;
+  height: 45px;
+  width: 140px;
   outline: none;
   border:none;
   padding: 0px 11px;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 5%;
     overflow: auto scroll;
   box-shadow: inset 3px 2px 8px rgba(150,150,150,0.1),inset 2px 2px 1px rgba(150,150,150,0.5),inset 3px 2px 8px rgba(150,150,150,0.1),2px 2px 1px rgba(150,150,150,0.5);
 }
 input[type=button]{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 2px;
   background-color: #fff;
   border: none;
