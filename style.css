@@ -15,10 +15,10 @@ span{
 .container{
   font-family: serif;
   position:fixed;
-  top: 45%;
-  left: 45%;
-  transform: translate(-45%,-45%);
-  width: 165px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 171px;
   background-color: #fff;
   border: 5px solid #fff;
   border-radius: 5px;
